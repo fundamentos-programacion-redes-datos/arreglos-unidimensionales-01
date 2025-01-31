@@ -1,0 +1,16 @@
+
+// Ejemplo de uso de arreglos
+
+1.  Inicio
+2.  // Declaración del arreglo de notas con tamaño 2
+3.  notasEstudiantes(2), indice [0-1]  
+4.  // Definición del índice 
+5.  indice, i[0-1]  
+6.  // Asignación de valores al arreglo
+7.  notasEstudiantes[0] <-- 9  
+8.  notasEstudiantes[1] <-- 10  
+9.  // Impresión del primer valor almacenado en el arreglo
+10. Escribir notasEstudiantes[0]  
+11. // Impresión del segundo valor almacenado en el arreglo
+12. Escribir notasEstudiantes[1]  
+13. Fin
