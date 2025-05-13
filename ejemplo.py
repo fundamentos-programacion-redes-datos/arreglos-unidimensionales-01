@@ -17,7 +17,7 @@ for indice in range(tamanio):
     # Verificación del rango permitido (20-40)
     if numero >= 20 and  numero <= 40:
         numeros[indice] = numero  # Se almacena el número ingresado
-    else:
+    else:   
         numeros[indice] = 100  # Se asigna 100 si el número no está en el rango permitido
 
 # Agregar los valores a la cadena acumuladora
