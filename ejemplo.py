@@ -13,9 +13,9 @@ valoresIngresados = "Valores ingresados:\n"
 # Ingresar valores en el arreglo con validación
 for indice in range(tamanio):
     numero = int(input(f"Ingrese un número para la posición {indice + 1}: "))  # Captura del usuario
-    
+
     # Verificación del rango permitido (20-40)
-    if 20 <= numero <= 40:
+    if numero >= 20 and  numero <= 40:
         numeros[indice] = numero  # Se almacena el número ingresado
     else:
         numeros[indice] = 100  # Se asigna 100 si el número no está en el rango permitido
