@@ -18,7 +18,7 @@ Genere una solución que permita ingresar por teclado valores de tipo entero a u
 14.     Leer valor_ingresado   // Captura el valor ingresado por el usuario
 15.
 16.     // Verificación del rango permitido
-17.     Si numeros[indice] >= 20 and numeros[indice] <= 40 entonces
+17.     Si valor_ingresado >= 20 and valor_ingresado <= 40 entonces
 18.         // El número está dentro del rango permitido
 19.         numeros[indice] <-- valor_ingresado
 19.     De lo contrario
